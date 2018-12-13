@@ -10,7 +10,8 @@
 </head>
 <body>
     @include('partials.navbar')
-    <div class="container">
+    @yield('slider')
+    <div class="container mt-2">
     @yield('content')
     </div>   
 
